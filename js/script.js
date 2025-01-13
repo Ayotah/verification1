@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     mail: form.mail
                 })
                 .then(function(response) {
-                    location.href = "coupon/couponSended.html";
+                    location.href = "couponSended.html";
                 }, function(error) {
                     console.log('FAILED...', error);
                     alert('An error occurred while sending the email.');
